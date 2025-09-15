@@ -1,2 +1,16 @@
 # Evaluation-using-LangSmith
-Implemented evaluation of LLM applications using LangSmith
+- Implemented dataset creation approaches:
+  - Manually curated datasets
+  - Datasets generated from user logs
+- Integrated evaluation methods:
+  - LLM-as-a-judge using built-in evaluators
+  - Custom evaluators (heuristics + LLM-as-a-judge)
+- Conducted experiments on datasets from Prompt Playground
+- Added summary evaluators for qualitative analysis
+- RAG application evaluation:
+  - Answer hallucination detection
+  - Document relevance to query evaluation
+  - Reference answer comparison
+- Set up regression testing for consistent evaluation over time
+- Implemented pairwise evaluations (e.g., paper summarization experiments from Twitter data)
+- Added comparison mechanisms across evaluation strategies
